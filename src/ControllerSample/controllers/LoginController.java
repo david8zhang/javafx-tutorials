@@ -1,4 +1,4 @@
-package controllersample.controllers;
+package ControllerSample.controllers;
 
 import javafx.scene.control.TextField;
 import javafx.scene.input.InputMethodEvent;

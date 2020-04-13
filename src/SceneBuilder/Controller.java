@@ -1,4 +1,4 @@
-package scenebuilder;
+package SceneBuilder;
 
 public class Controller {
 }

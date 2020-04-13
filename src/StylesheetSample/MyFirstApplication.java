@@ -1,10 +1,9 @@
+package StylesheetSample;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyCodeCombination;
-import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
@@ -51,7 +50,7 @@ public class MyFirstApplication extends Application {
 
         parent.getChildren().addAll(button1, button2, button3, r1);
         Scene scene1 = new Scene(parent);
-        scene1.getStylesheets().add("stylesheets/styles.css");
+        scene1.getStylesheets().add("StylesheetSample/stylesheets/styles.css");
 
         stage.setScene(scene1);
         stage.show();
